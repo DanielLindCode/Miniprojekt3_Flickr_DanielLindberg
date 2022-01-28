@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Index</title>
+</head>
+
+<body>
+    <div class="search">
+        <form>
+            <input type="text" id="searchBox" value="" placeholder="Search...">
+            <input type="number" id="quantityBox" value="1" min="1" max="500" placeholder="Quantity..">
+
+            <select class="selectClass">
+                <option class="sizeInput" value="" disabled> Size
+                </option>
+                <option class="sizeInput" value="m"> Small
+                </option>
+                <option class="sizeInput" value="z"> Medium
+                </option>
+                <option class="sizeInput" value="b"> Large
+                </option>
+            </select>
+            <button id="searchbutton">Search</button>
+        </form>
+        <!-- <div id="searchbutton">Search</div> -->
+    </div>
+    <div class="gallery"></div>
+</body>
+
+</html>
